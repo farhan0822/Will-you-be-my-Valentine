@@ -71,11 +71,11 @@ let messageIndex = 0;
 
 function handleNoClick() {
   const noButton = document.querySelector(".no-button");
-  const SiButton = document.querySelector(".Si-button");
+  const SiButton = document.querySelector(".si-button");
   noButton.textContent = messages[messageIndex];
   messageIndex = (messageIndex + 1) % messages.length;
   const currentSize = parseFloat(window.getComputedStyle(SiButton).fontSize);
-  SiButton.style.fontSize = `${currentSize * 2.0}px`;
+  siButton.style.fontSize = `${currentSize * 2.0}px`;
 }
 
 function handleYesClick() {
