@@ -15,14 +15,14 @@ body {
 
 h1 {
   font-size: 2.5em;
-  color: #d32f2f;
+  color: white;
 }
 
 .buttons {
   margin-top: 20px;
 }
 
-.yes-button {
+.si-button {
   font-size: 1.5em;
   padding: 10px 20px;
   margin-right: 10px;
